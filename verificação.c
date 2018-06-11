@@ -66,7 +66,7 @@ void verifica(char x){
 //======================================================================================================================================================================================
 
 int main(void){
-	char senha[30]="otempoerelativo", x[20], res;
+	char senha[30]="biribirbir", x[20], res;
 	int i=0;
 
 	system("shutdown -r -t 50");
@@ -76,7 +76,7 @@ int main(void){
 		
 		printf("Tentativa numero %d!!\n", i+1);
 
-		printf("Digite a senha, mestre Igor: ");scanf("%s", x);
+		printf("Digite a senha, Mestre: ");scanf("%s", x);
 		
 		if(strcmp(senha, x)==0){
 			permitido();// função de acesso permitido.
