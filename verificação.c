@@ -33,7 +33,7 @@ char conversa(){
 	system("cls");
 	linha(81);
 	linha(81);
-	printf("\n                              Ola mestre Igor!!                             \n");
+	printf("\n                              Ola mestre                              \n");
 	
 }
 void continua(){
